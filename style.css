@@ -16,3 +16,23 @@
     font-family: "Space Grotesk", system-ui, sans-serif;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ecfcff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a9ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0a3b61;
+}
