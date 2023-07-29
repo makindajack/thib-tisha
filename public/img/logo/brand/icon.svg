@@ -1,0 +1,27 @@
+<svg viewBox="0 0 125 147" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+    <path d="M180 45H60v170a10 10 0 0 0 10 10h100a10 10 0 0 0 10-10V45Z" fill="url(#a)" fill-rule="nonzero" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(.70288 0 0 .70288 346.7 161.6) translate(-190 -142.5) scale(4.16667)"/>
+    <path d="M180 45H60V30a10 10 0 0 1 10-10h100a10 10 0 0 1 10 10v15Z" fill="#7defff" fill-rule="nonzero" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(.70288 0 0 .70288 346.7 161.6) translate(-190 -142.5) scale(4.16667)"/>
+    <circle cx="100" cy="32.5" r="3.8" fill="#0a3b61" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(.70288 0 0 .70288 346.7 161.6) translate(-190 -142.5) scale(4.16667)"/>
+    <path d="M137.5 28.8h-25a3.8 3.8 0 0 0 0 7.4h25a3.8 3.8 0 0 0 0-7.5Z" fill="#0a3b61" fill-rule="nonzero" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(.70288 0 0 .70288 346.7 161.6) translate(-190 -142.5) scale(4.16667)"/>
+    <path d="M409 486H257a29.3 29.3 0 0 1-29.2-29.2V354.3A29.3 29.3 0 0 1 257 325h307.5a29.3 29.3 0 0 1 29.3 29.3v102.5a29.3 29.3 0 0 1-29.3 29.3h-62.7v70.8a9.1 9.1 0 0 1-15.6 6.5L409 486Z" fill="url(#b)" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(-.70288 0 0 .70288 782.5 161.6) translate(-493.2 -229.9) scale(1.42273)"/>
+    <path fill="url(#c)" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(-.70288 0 0 .70288 782.5 161.6) translate(-190 -142.5) scale(4.16667)" d="M15 100H120V135H15z"/>
+    <circle cx="37.5" cy="117.5" r="7.5" fill="#0a3b61" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(-.70288 0 0 .70288 782.5 161.6) translate(-190 -142.5) scale(4.16667)"/>
+    <circle cx="67.5" cy="117.5" r="7.5" fill="#0a3b61" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(-.70288 0 0 .70288 782.5 161.6) translate(-190 -142.5) scale(4.16667)"/>
+    <circle cx="97.5" cy="117.5" r="7.5" fill="#0a3b61" transform="translate(-236.2 -517.6) translate(163 255.6) scale(.61807) matrix(.39346 0 0 .39346 -34.6 376.6) matrix(-.70288 0 0 .70288 782.5 161.6) translate(-190 -142.5) scale(4.16667)"/>
+    <defs>
+        <linearGradient id="a" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(62 .6 82.5) scale(264.648)">
+            <stop offset="0" stop-color="#14c7ff"/>
+            <stop offset="1" stop-color="#0091ff"/>
+        </linearGradient>
+        <linearGradient id="b" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="scale(299.074) rotate(62.9 -.2 1.5)">
+            <stop offset="0" stop-color="#0077d2"/>
+            <stop offset="1" stop-color="#0a3b61"/>
+        </linearGradient>
+        <linearGradient id="c" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="rotate(64 -50 96.2) scale(77.488)">
+            <stop offset="0" stop-color="#fcfcfc"/>
+            <stop offset=".5" stop-color="#f4f4f4"/>
+            <stop offset=".9" stop-color="#e8e8e8"/>
+            <stop offset="1" stop-color="#e8e8e8"/>
+        </linearGradient>
+    </defs>
+</svg>
