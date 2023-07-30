@@ -1,12 +1,34 @@
 {
-  "name": "forms",
+  "name": "thib-tisha",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
+  "description": "Thibitisha is a state-of-the-art security solution designed to keep your online accounts and sensitive information protected from unauthorized access.",
+  "keywords": [
+    "Two-Factor Authentication",
+    "2-Way SMS Verification",
+    "Online Security",
+    "Account Protection",
+    "Enhanced Authentication",
+    "Digital Privacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makinda-jackson/thib-tisha.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "npm run build && vite preview --host"
   },
+  "homepage": "https://github.com/makinda-jackson/thib-tisha/",
+  "bugs": {
+    "url": "https://github.com/makinda-jackson/thib-tisha/issues"
+  },
+  "author": "Jackson Makinda <jacksonmakinda@gmail.com>",
+  "contributors": [
+    "Elia Mkumbo <mkumboelia@gmail.com>"
+  ],
+  "main": "index.html",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
