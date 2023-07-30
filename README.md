@@ -1,4 +1,4 @@
-<a href="https://thib-tisha.netlify.app/" blanl="_">
+<a href="https://thib-tisha.netlify.app/" target="_blank">
   <div align="right">
     <img src="https://api.netlify.com/api/v1/badges/1b1453d2-ca69-4fac-b2a0-01526543bd20/deploy-status">
   </div>
