@@ -12,43 +12,49 @@
     <section
       class="container flex flex-col items-center h-full justify-center mx-auto"
     >
-      <form class="bg-white w-4/12 shadow-md rounded-3xl p-10 gap-4">
-        <div class="flex justify-between items-center pb-10">
-          <div class="flex flex-col">
-            <h1 class="text-3xl font-bold text-blue-600 text-center">Verify</h1>
-            <!-- <p>Welcome</p> -->
+      <div
+        class="bg-white w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 shadow-md rounded-3xl p-10"
+      >
+        <form class="w-full mx-auto gap-4">
+          <div class="flex justify-between items-center pb-10">
+            <div class="flex flex-col">
+              <h1 class="text-3xl font-bold text-blue-600 text-center">
+                Verify
+              </h1>
+              <!-- <p>Welcome</p> -->
+            </div>
+            <div class="dark:bg-blue-900 flex">
+              <a href="/" class="flex flex-col gap-1">
+                <img
+                  src="/img/logo/brand/icon.svg"
+                  class="h-6 ml-2"
+                  alt="Thibitisha Logo"
+                />
+                <span
+                  class="self-center text-sm font-semibold whitespace-nowrap dark:text-blue-50"
+                  >Thib-tisha</span
+                >
+              </a>
+            </div>
           </div>
-          <div class="dark:bg-blue-900 flex">
-            <a href="/" class="flex flex-col gap-1">
-              <img
-                src="/img/logo/brand/icon.svg"
-                class="h-6 ml-2"
-                alt="Thibitisha Logo"
-              />
-              <span
-                class="self-center text-sm font-semibold whitespace-nowrap dark:text-blue-50"
-                >Thib-tisha</span
-              >
-            </a>
+          <div class="mb-6 flex flex-col gap-4">
+            <h1
+              for="email"
+              class="block text-sm font-medium text-blue-900 dark:text-blue-50"
+            >
+              Confirm by replying the message sent to ***736
+            </h1>
+            <p class="text-sm text-blue-900 dark:text-blue-400">
+              Confirmation code is
+              <span class="font-bold text-blue-500">0 9 2 6</span>
+            </p>
           </div>
-        </div>
-        <div class="mb-6 flex flex-col gap-4">
-          <h1
-            for="email"
-            class="block text-sm font-medium text-blue-900 dark:text-blue-50"
-          >
-            Confirm by replying the message sent to ***736
-          </h1>
-          <p class="text-sm text-blue-900 dark:text-blue-400">
-            Confirmation code is
-            <span class="font-bold text-blue-500">0 9 2 6</span>
+          <p class="text-sm text-blue-800 dark:text-blue-400 mt-6">
+            Didn't get confirmation message?
+            <a href="#" class="underline font-bold">resend</a>
           </p>
-        </div>
-        <p class="text-sm text-blue-800 dark:text-blue-400 mt-6">
-          Didn't get confirmation message?
-          <a href="#" class="underline font-bold">resend</a>
-        </p>
-      </form>
+        </form>
+      </div>
     </section>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>

@@ -12,80 +12,86 @@
     <section
       class="container flex flex-col items-center h-full justify-center mx-auto"
     >
-      <form class="bg-white w-4/12 shadow-md rounded-3xl p-10 gap-4">
-        <div class="flex justify-between items-center pb-10">
-          <div class="flex flex-col">
-            <h1 class="text-3xl font-bold text-blue-600 text-center">Login</h1>
-            <p>Welcome</p>
+      <div
+        class="bg-white w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 shadow-md rounded-3xl p-10"
+      >
+        <form class="w-full mx-auto gap-4">
+          <div class="flex justify-between items-center pb-10">
+            <div class="flex flex-col">
+              <h1 class="text-3xl font-bold text-blue-600 text-center">
+                Login
+              </h1>
+              <p>Welcome</p>
+            </div>
+            <div class="dark:bg-blue-900 flex">
+              <a href="/" class="flex flex-col gap-1">
+                <img
+                  src="/img/logo/brand/icon.svg"
+                  class="h-6 ml-2"
+                  alt="Thibitisha Logo"
+                />
+                <span
+                  class="self-center text-sm font-semibold whitespace-nowrap dark:text-blue-50"
+                  >Thib-tisha</span
+                >
+              </a>
+            </div>
           </div>
-          <div class="dark:bg-blue-900 flex">
-            <a href="/" class="flex flex-col gap-1">
-              <img
-                src="/img/logo/brand/icon.svg"
-                class="h-6 ml-2"
-                alt="Thibitisha Logo"
-              />
-              <span
-                class="self-center text-sm font-semibold whitespace-nowrap dark:text-blue-50"
-                >Thib-tisha</span
-              >
-            </a>
-          </div>
-        </div>
-        <div class="mb-6">
-          <label
-            for="email"
-            class="block mb-2 text-sm font-medium text-blue-900 dark:text-blue-50"
-            >Your email</label
-          >
-          <input
-            type="email"
-            id="email"
-            class="bg-blue-50/10 border border-blue-300 text-blue-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-blue-700 dark:border-blue-600 dark:placeholder-blue-400 dark:text-blue-50 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="name@thibitisha.com"
-            required
-          />
-        </div>
-        <div class="mb-6">
-          <label
-            for="password"
-            class="block mb-2 text-sm font-medium text-blue-900 dark:text-blue-50"
-            >Your password</label
-          >
-          <input
-            type="password"
-            id="password"
-            class="bg-blue-50/10 border border-blue-300 text-blue-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-blue-700 dark:border-blue-600 dark:placeholder-blue-400 dark:text-blue-50 dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            required
-          />
-        </div>
-        <div class="flex items-start mb-6">
-          <div class="flex items-center h-5">
+          <div class="mb-6">
+            <label
+              for="email"
+              class="block mb-2 text-sm font-medium text-blue-900 dark:text-blue-50"
+              >Your email</label
+            >
             <input
-              id="remember"
-              type="checkbox"
-              value=""
-              class="w-4 h-4 border border-blue-300 rounded bg-blue-50/10 focus:ring-3 focus:ring-blue-300 dark:bg-blue-700 dark:border-blue-600 dark:focus:ring-blue-600 dark:ring-offset-blue-800 dark:focus:ring-offset-blue-800"
+              type="email"
+              id="email"
+              class="bg-blue-50/10 border border-blue-300 text-blue-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-blue-700 dark:border-blue-600 dark:placeholder-blue-400 dark:text-blue-50 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="name@thibitisha.com"
               required
             />
           </div>
-          <label
-            for="remember"
-            class="ml-2 text-sm font-medium text-blue-900 dark:text-blue-300"
-            >Remember me</label
+          <div class="mb-6">
+            <label
+              for="password"
+              class="block mb-2 text-sm font-medium text-blue-900 dark:text-blue-50"
+              >Your password</label
+            >
+            <input
+              type="password"
+              id="password"
+              class="bg-blue-50/10 border border-blue-300 text-blue-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-blue-700 dark:border-blue-600 dark:placeholder-blue-400 dark:text-blue-50 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+          </div>
+          <div class="flex items-start mb-6">
+            <div class="flex items-center h-5">
+              <input
+                id="remember"
+                type="checkbox"
+                value=""
+                class="w-4 h-4 border border-blue-300 rounded bg-blue-50/10 focus:ring-3 focus:ring-blue-300 dark:bg-blue-700 dark:border-blue-600 dark:focus:ring-blue-600 dark:ring-offset-blue-800 dark:focus:ring-offset-blue-800"
+                required
+              />
+            </div>
+            <label
+              for="remember"
+              class="ml-2 text-sm font-medium text-blue-900 dark:text-blue-300"
+              >Remember me</label
+            >
+          </div>
+          <button
+            type="submit"
+            class="text-blue-50 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-        </div>
-        <button
-          type="submit"
-          class="text-blue-50 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
-          Login
-        </button>
-        <p class="text-sm text-blue-800 dark:text-blue-400 mt-6">
-          Not a user?
-          <a href="signup.html" class="underline font-bold">Register</a>
-        </p>
-      </form>
+            Login
+          </button>
+          <p class="text-sm text-blue-800 dark:text-blue-400 mt-6">
+            Not a user?
+            <a href="signup.html" class="underline font-bold">Register</a>
+          </p>
+        </form>
+      </div>
     </section>
     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
